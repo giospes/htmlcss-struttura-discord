@@ -9,38 +9,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="flex">
-        <div class="container">
+    <header class="flex-col center">
+        <div class="container" id="jumbotron">
             <h1>Il tuo posto per parlare</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam repudiandae odio odit, incidunt, suscipit quia voluptatibus hic eligendi placeat laboriosam, adipisci ipsa facilis aperiam dignissimos sit vero tempore fuga quam.</p>
-            <a href="#" class="button">Scarica per Mac</a>
-            <a href="#" class="button">Apri Discord nel tuo Browser</a>
+            <a href="#" class="button light-btn"><i class="fa-solid fa-arrow-down"></i> Scarica per Mac</a>
+            <a href="#" class="button dark-btn">Apri Discord nel tuo Browser</a>
         </div>
     </header>
 
     <main>
-        <section class="container flex">
+        <section class="container flex-row-reverse ">
             <article>
                 <h2>Un luogo con tutto lo spazio necessario per parlare</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti aliquam nostrum repellat nemo! Eligendi, aliquam alias. Quibusdam beatae commodi explicabo.</p>
             </article>
             <img src="./img/item1.svg" alt="discord chat with a frog reading">
         </section>
-        <section class="container flex">
+        <section class="container flex-row">
             <article>
                 <h2>Dove trovarsi è facile</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti aliquam nostrum repellat nemo! Eligendi, aliquam alias. Quibusdam beatae commodi explicabo.</p>
             </article>
             <img src="./img/item2.svg" alt="discord chat with a frog reading">
         </section>
-        <section class="container flex">
+        <section class="container flex-row-reverse ">
             <article>
                 <h2>Da pochi a un fandom</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti aliquam nostrum repellat nemo! Eligendi, aliquam alias. Quibusdam beatae commodi explicabo.</p>
             </article>
             <img src="./img/item3.svg" alt="discord chat with a frog reading">
         </section>
-        <section class="container flex">
+        <section class="container flex-col">
             <article>
                 <h2>Tecnologia affidabile per tenersi in contatto</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti aliquam nostrum repellat nemo! Eligendi, aliquam alias. Quibusdam beatae commodi explicabo.</p>
@@ -53,8 +53,8 @@
     </main>
 
     <footer>
-        <div class="container flex">
-            <section>
+        <div class="container flex-row ">
+            <section class="flex-row">
                 <h3>
                     Il tuo posto per parlare
                 </h3>
@@ -62,15 +62,16 @@
                     <img src="./img/ita.png" alt="italian flag">
                     <figcaption class="arrow-down">italiano</figcaption>
                 </figure>
-                <ul class="flex">
+                <ul class="">
                     <li><i class="fa-brands fa-twitter"></i></li>
                     <li><i class="fa-brands fa-instagram"></i></li>
                     <li><i class="fa-brands fa-facebook"></i></li>
                     <li><i class="fa-brands fa-youtube"></i></li>
                 </ul>
             </section>
-            <section>
-                <ul>
+
+            <section >
+                <ul class="flex-row">
                     <li>
                         <ul>
                             <li>
