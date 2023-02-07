@@ -4,7 +4,7 @@
     --main-color: #FFFFFF;
     --main-text-color: #000000;
     --bg-footer-color: #23272A;
-    --bg-secondary-color: #23272A;
+    --bg-secondary-color: #F6F6F6;
     --emphasis-color: #7289DA;
 }
 
@@ -14,7 +14,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Noto-sans', sans-serif;
-    color: var(--main-color);
 }
 
 .flex-col{
@@ -47,7 +46,7 @@
     padding: .5rem .8rem;
     border-radius: 20px;
     text-decoration: none;
-
+    color: var(--main-color);
 }
 
 .light-btn{
@@ -55,11 +54,12 @@
 }
 
 .dark-btn{
-    background-color: var(--bg-footer-color);
+    background-color: var(--bg-footer-color);   
 }
 
 
 header{
+    color: var(--main-color);
     height: 475px;
     background: url('../img/jumbo.png');
     background-size: cover;
@@ -87,3 +87,15 @@ i{
     color: black;
 }
 
+main{
+    color: var(--main-text-color);
+    background-color: var(--main-color);
+}
+
+section{
+    padding: 8em 0;
+}
+
+.odd{
+    background-color: var(--bg-secondary-color);
+}
